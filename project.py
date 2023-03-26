@@ -15,18 +15,19 @@ if choice == "2":
     print(chatgpt_response)
     print(ai) 
 # Do the project here
-# New line 
-
+# New line
+# consult the recipe
 if choice == "1":
     choose = input("kind of recipe do you want to consult: ")
     level_type = input("easy or difficult ")
     chatgpt_response = ai.recipe([choose], level_type)
     print(chatgpt_response)
     print(ai)
-decision = input("What do you want to do with your recipe\n edit or delete ")
+decision = input("What do you want to do with your recipe\n edit or delete ") # edit or delete
 if decision == "delete": 
      print("Now is eliminated ")
      delete = "recipe"
 if decision == "edit": 
         edit = input("What do you want to edit ")
         print("Now you have a new recipe ")
+# it's end 
