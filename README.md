@@ -1,7 +1,7 @@
 # Project
 Name: Miranda Luis Turrubiartes
 
--The dependencies that were used for the code to work are ChatGpt, ai,
+-The dependencies that were used for the code to work is pip install open ai
 -When running the program, only answer the questions that are generated when using the code.
 #Specifications
 - The cookbook needs to make use of the ai.py module
